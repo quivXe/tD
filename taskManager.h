@@ -68,9 +68,7 @@ struct TaskManager
                 i--;
             }
             else if (tasks[i].parentId == id) {
-                    std::cout << 'j';
-            std::getchar();
-                    deleteTask(tasks[i].id);
+                deleteTask(tasks[i].id);
             }
         }
     }
